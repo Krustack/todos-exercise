@@ -3,15 +3,11 @@ const todos = document.querySelector('#todos');
 const finished = document.querySelector('#finished');
 
 function addTask(task) {
-  const li = document.createElement('li');
-  li.textContent = task;
-  todos.appendChild(li);
+
 }
 
 function finishedTask(task) {
-  const li = document.createElement('li');
-  li.textContent = task;
-  finished.appendChild(li);
+
 }
 
 function formSubmitted(event) {
